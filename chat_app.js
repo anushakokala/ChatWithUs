@@ -73,7 +73,7 @@ const sendMessage = (e) => {
   localStorage.setItem('messages', JSON.stringify(messages))
 
 
-  /* Add message to DOM */
+  /* Add message to DOM (structure of html) */
   chatMessages.innerHTML += createChatMessageElement(message)
 
 
@@ -85,10 +85,10 @@ const sendMessage = (e) => {
   chatMessages.scrollTop = chatMessages.scrollHeight
 }
 
-
+// submit button
 chatInputForm.addEventListener('submit', sendMessage)
 
-
+// clear chat history
 clearChatBtn.addEventListener('click', () => {
   localStorage.clear()
   chatMessages.innerHTML = ''
