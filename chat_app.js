@@ -1,6 +1,5 @@
 // @ts-nocheck
 
-
 const freshmanSelectorBtn = document.querySelector('#freshman-selector')
 const upperclassmenSelectorBtn = document.querySelector('#upperclassmen-selector')
 const chatHeader = document.querySelector('.chat-header')
