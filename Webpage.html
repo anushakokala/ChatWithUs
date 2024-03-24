@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeHack</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+  <div class="navbar">
+    <a class="nav-link" href="#" onclick="navigate('index.html')">Home</a>
+    <a class="nav-link" href="#" onclick="navigate('faq.html')">FAQ</a>
+    <a class="nav-link" href="#" onclick="navigate('chatroom.html')">Chat Room</a>
+  </div>
+
+  <div class="container">
+    <h3>About Us</h3>
+    <div id="about" class="row">
+      <div id="description" class="col-md-6">
+        <p>
+          This is an interactive website for freshman to connect with upperclassman. This website includes a chat
+          feature, where freshman can chat with upperclassman and ask them questions about anything.
+        </p>
+      </div>
+      <div id="img" class="col-md-6">
+        <img id="about-image" src="Laptop.png" height="310" alt="ERROR">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function navigate(page) {
+      window.location.href = page;
+    }
+  </script>
+</body>
+
+</html>
