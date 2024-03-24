@@ -45,7 +45,7 @@ p {
 }
 
 /* Navbar styling */
-.navbar {
+/* .navbar {
   background-color: #CBD5C0;
   height: 60px;
   display: flex;
@@ -70,4 +70,4 @@ p {
 
 .navbar a.active {
   font-weight: bold; 
-}
+} */

@@ -1,0 +1,27 @@
+/* Navbar styling */
+.navbar {
+    background-color: #CBD5C0;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px; 
+  }
+  
+  .navbar a {
+    color: #4b6043;
+    text-decoration: none;
+    margin-left: 20px; 
+    font-family: 'Verdana', sans-serif;
+    font-size: 20px;
+    transition: background-color 0.3s; 
+  }
+  
+  .navbar a:hover {
+    background-color: #96AF88;
+    padding: 10px 30px;
+  }
+  
+  .navbar a.active {
+    font-weight: bold; 
+  }
