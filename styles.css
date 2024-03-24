@@ -1,7 +1,10 @@
+/* Body */
 body {
   background-color: #DFE6DA;
 }
 
+
+/* Headings */
 h3 {
   text-align: center;
   color: #4b6043;
@@ -10,19 +13,24 @@ h3 {
   font-size: 28px;
 }
 
+
+/* Paragraphs */
 p {
-  text-align:justify;
-  color:#758467;
+  text-align: justify;
+  color: #4b6043;
   font-size: 20px;
   line-height: 1.6;
 }
 
+
+/* About Section */
 #about {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 40px;
 }
+
 
 #description {
   width: 40%;
@@ -32,42 +40,56 @@ p {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+
 #img {
   width: 50%;
 }
+
 
 #about-image {
   border-radius: 5px;
   margin-top: 20px;
   width: 500px;
   padding: 30px;
-
 }
 
+
 /* Navbar styling */
-/* .navbar {
+.navbar {
   background-color: #CBD5C0;
   height: 60px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
-  padding: 0 20px; 
+  padding: 0 20px;
 }
+
 
 .navbar a {
   color: #4b6043;
   text-decoration: none;
-  margin-left: 20px; 
+  margin-left: 20px;
   font-family: 'Verdana', sans-serif;
   font-size: 20px;
-  transition: background-color 0.3s; 
+  transition: background-color 0.3s;
 }
+
 
 .navbar a:hover {
   background-color: #96AF88;
   padding: 10px 30px;
 }
 
+
 .navbar a.active {
-  font-weight: bold; 
-} */
+  font-weight: bold;
+}
+
+
+.name {
+  color: #4b6043;
+  font-family: 'Verdana', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin-right: auto; /* Pushes "CHAT WITH US" to the left */
+}

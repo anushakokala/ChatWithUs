@@ -8,92 +8,106 @@
         <link rel="stylesheet" href="navbar_style.css">
     </head>
 
-
     <body>
-        <h3>FAQ</h3>
-    <div class="faq-container">
-        <!-- Question #1 -->
-        <div class="faq">
-            <div class = "question-box" id="description" onclick = "showAnswer(this)">
-                What are the best clubs to join as an engineering major?
+        
+        <div id="navbarContainer"></div>
+        
+        <div class="faq-container">
+            <h3>FAQ</h3>
+            <!-- Question #1 -->
+            <div class="faq">
+                <div class = "question-box" id="description" onclick = "showAnswer(this)">
+                    What are the best clubs to join as an engineering major?
 
 
-                <div class = "answer-box" id="description">
-                    <div class = "answer">
-                        There are plenty of clubs on campus for engineering majors! Some prominent clubs include American Society of Mechanical Engineers (ASME),
-                        Artificial Intelligence Society (AIS), Association of Computing Machinery (ACM), Biomedical Engineering Society (BMES),
-                        Institute of Electrical and Electronics Engineers (IEEE), Women Who Compute (WWC), and Society of Asian Scientists and Engineers (SASE).
-                        Definitely check these clubs out!
+
+
+                    <div class = "answer-box" id="description">
+                        <div class = "answer">
+                            There are plenty of clubs on campus for engineering majors! Some prominent clubs include American Society of Mechanical Engineers (ASME),
+                            Artificial Intelligence Society (AIS), Association of Computing Machinery (ACM), Biomedical Engineering Society (BMES),
+                            Institute of Electrical and Electronics Engineers (IEEE), Women Who Compute (WWC), and Society of Asian Scientists and Engineers (SASE).
+                            Definitely check these clubs out!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Question #2 -->
+            <div class="faq">
+                <div class = "question-box" id="description" onclick = "showAnswer(this)">
+                    What is the best way to get more experience?
+                
+                    <div class = "answer-box" id="description">
+                        <div class = "answer">
+                            Participating in hackathons, getting involved in clubs, and working on side projects are the best way to get
+                            more experience! Furthermore, these activities can be put on a resume to help you land an internship, which can
+                            help you work with real-world problems in your career field.
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Question #3 -->
+            <div class="faq">
+                <div class = "question-box" id="description" onclick = "showAnswer(this)">
+                    Is networking worth it in college?
+                
+                    <div class = "answer-box" id="description">
+                        <div class = "answer">
+                            Absolutely! Networking helps you get your name out there for potential recruiters and builds your reputation.
+                            Additionally, networking enables you to gain mentors and other peers who can help you gain more opportunities.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Question #4 -->
+            <div class="faq">
+                <div class = "question-box" id="description" onclick = "showAnswer(this)">
+                    What computer languages do I need to learn before starting college?
+                
+                    <div class = "answer-box" id="description">
+                        <div class = "answer">
+                            You don’t need to have any prior experience programming before starting college! You learn the fundamentals in
+                            your introductory courses, and you will learn a language as you progress through these courses.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Question #5 -->
+            <div class="faq">
+                <div class = "question-box" id="description" onclick = "showAnswer(this)">
+                    Is it better to focus more on your academics or your extracurriculars as a freshman?
+                
+                    <div class = "answer-box" id="description">
+                        <div class = "answer">
+                            Both are equally important! Having a strong GPA throughout college can ensure a timely graduation.
+                            However, while a good GPA is impressive, try to also participate in extracurriculars.
+                            Extracurriculars teach important skills you may not learn in a traditional classroom setting.
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <!-- Question #2 -->
-        <div class="faq">
-            <div class = "question-box" id="description" onclick = "showAnswer(this)">
-                What is the best way to get more experience?
-               
-                <div class = "answer-box" id="description">
-                    <div class = "answer">
-                        Participating in hackathons, getting involved in clubs, and working on side projects are the best way to get
-                        more experience! Furthermore, these activities can be put on a resume to help you land an internship, which can
-                        help you work with real-world problems in your career field.
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Question #3 -->
-        <div class="faq">
-            <div class = "question-box" id="description" onclick = "showAnswer(this)">
-                Is networking worth it in college?
-               
-                <div class = "answer-box" id="description">
-                    <div class = "answer">
-                        Absolutely! Networking helps you get your name out there for potential recruiters and builds your reputation.
-                        Additionally, networking enables you to gain mentors and other peers who can help you gain more opportunities.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Question #4 -->
-        <div class="faq">
-            <div class = "question-box" id="description" onclick = "showAnswer(this)">
-                What computer languages do I need to learn before starting college?
-               
-                <div class = "answer-box" id="description">
-                    <div class = "answer">
-                        You don’t need to have any prior experience programming before starting college! You learn the fundamentals in
-                        your introductory courses, and you will learn a language as you progress through these courses.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Question #5 -->
-        <div class="faq">
-            <div class = "question-box" id="description" onclick = "showAnswer(this)">
-                Is it better to focus more on your academics or your extracurriculars as a freshman?
-               
-                <div class = "answer-box" id="description">
-                    <div class = "answer">
-                        Both are equally important! Having a strong GPA throughout college can ensure a timely graduation.
-                        However, while a good GPA is impressive, try to also participate in extracurriculars.
-                        Extracurriculars teach important skills you may not learn in a traditional classroom setting.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-   
+    
     <script>
         // JavaScript function to show answer on mouse click
         function showAnswer(element) {
@@ -109,7 +123,7 @@
         function navigate(page) {
           window.location.href = page;
         }
-    
+   
         // Fetch and insert navbar
         fetch('navbar.html')
           .then(response => response.text())

@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WeHack</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="navbar_style.css">
 </head>
 
+
 <body>
-  <div id="navbarContainer"></div>
+
+  <div class="navbar">
+   <div class="name">
+        CHAT WITH US  
+    </div>
+    <a class="nav-link" href="#" onclick="navigate('index.html')">Home</a>
+    <a class="nav-link" href="#" onclick="navigate('faq.html')">FAQ</a>
+    <a class="nav-link" href="#" onclick="navigate('chatroom.html')">Chat Room</a>
+  </div>
+
 
   <div class="container">
     <h3>About Us</h3>
     <div id="about" class="row">
       <div id="description" class="col-md-6">
         <p>
-          This is an interactive website for freshmen to connect with upperclassmen. This website includes a chat 
-          feature, where freshmen can chat with upperclassmen and ask them questions about anything. Along with 
-          these features, we have added a FAQ page for users to see the most common questions that are asked.
+          This is an interactive website for freshmen to connect with upperclassmen. This website includes a chat
+          feature, where freshmen can chat with upperclassmen and ask them questions about anything. Along with these features, we have
+          added a FAQ page for users to see the most common questions that are asked.
         </p>
       </div>
       <div id="img" class="col-md-6">
@@ -28,19 +38,15 @@
     </div>
   </div>
 
+
   <script>
     function navigate(page) {
       window.location.href = page;
     }
-
-    // Fetch and insert navbar
-    fetch('navbar.html')
-      .then(response => response.text())
-      .then(html => {
-        document.getElementById('navbarContainer').innerHTML = html;
-      })
-      .catch(error => console.error('Error fetching navbar:', error));
   </script>
 </body>
 
+
 </html>
+
+
