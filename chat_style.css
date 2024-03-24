@@ -1,6 +1,28 @@
 body {
-    background-image: white;
+    background: #e7ece4;
     height: 100vh;
+
+
+}
+
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #cbd5c0;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #9caf88;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4b6043;
 }
 
 
@@ -33,14 +55,15 @@ body {
 
 .person-selector-button {
     width: 100%;
-    background-color: black;
-    color: #fff;
+    background-color: #cbd5c0;
+    color: #4b6043;
     font-size: 1.1em;
 }
 
 
 .active-person {
-    background: #08529d;
+    background: #4b6043;
+    color: #f5f5f5;
     box-shadow: 0 0 1.25em 0.5em #c3c3c333;
 }
 
@@ -59,7 +82,7 @@ body {
 
 .chat-header {
     margin-bottom: 1em;
-    color: #fff;
+    color: #4b6043;
 }
 
 
@@ -71,7 +94,7 @@ body {
 
 .chat-messages {
     height: 23em;
-    overflow-y: scroll;;
+    overflow-y: scroll;
 }
 
 
@@ -110,12 +133,14 @@ body {
 
 
 .blue-bg {
-    background-color: #1c9bef;
+    background-color: #4b6043;
+    color: #f5f5f5;
 }
 
 
 .gray-bg {
-    background-color: #3d5365;
+    background-color: #cbd5c0;
+    color: #4b6043;
 }
 
 
@@ -123,7 +148,13 @@ body {
     display: flex;
     align-items: center;
     margin-top: 2em;
-    gap: 0.625em;
+    gap: 1em;
+}
+
+
+.chat-input-form input[type="text"] {
+    height: 2em; /* Adjust the height value as needed */
+    /* Add any other styling you desire */
 }
  
 .chat-input {
@@ -137,13 +168,14 @@ body {
 }
  
 .send-button {
-    background-color: #1c9bef;
-    color: #fff;
+    background-color: #4b6043;
+    color: #f5f5f5;
     font-size: 1em;
     font-weight: bold;
 }
  
 .clear-chat-button {
     display: block;
+    color: #4b6043;
     margin: 2.5em auto;
 }
